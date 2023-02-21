@@ -1,0 +1,78 @@
+body
+{
+    font-family: 'Prompt', sans-serif;
+}
+
+.filter-box
+{
+    border-bottom: 1px solid #dee2e6;
+}
+
+.filter-box .card-header
+{
+    border-bottom: 0;
+    border-radius: 0;
+}
+
+.filter-box .card-header>a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.filter-box .menu
+{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.filter-box .menu li
+{
+  margin-bottom: 3px;
+}
+
+.filter-box .menu li>a
+{
+  color: #51585e;
+  text-decoration: none;
+}
+
+.scroll
+{
+    max-height: 200px;
+    overflow: auto;
+}
+
+
+.filter-box .card-header .fa-chevron-down 
+{
+    float: right;
+    font-size: 14px;
+    color: #9da1a7;
+    margin-top: 5px;
+}
+
+
+/* .filter-box .checkbox-btn
+{
+    position: relative;
+}
+
+
+.filter-box .checkbox-btn input
+{
+    position: absolute;
+    opacity: 0;
+}
+
+
+    .filter-box .checkbox-btn input:checked~.btn
+{
+    background-color: blue;
+    color: white;
+} */
+/* .menu
+{
+    height: 100px;
+} */
